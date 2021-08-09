@@ -1,0 +1,35 @@
+{
+  "name": "postman-to-swagger",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./index.js",
+  "pkg": {
+    "scripts": "./index.js",
+    "outputPath": "dist"
+  },
+  "scripts": {
+    "build": "pkg .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hados99/postman-to-swagger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hados99/postman-to-swagger/issues"
+  },
+  "homepage": "https://github.com/hados99/postman-to-swagger#readme",
+  "dependencies": {
+    "api-spec-transformer": "^0.2.6",
+    "debug": "^4.3.2",
+    "postman-2-swagger": "^0.5.0",
+    "postman-collection-transformer": "^4.1.3",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.3.1"
+  }
+}
